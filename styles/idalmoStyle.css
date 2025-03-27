@@ -1,0 +1,131 @@
+html, body{
+    background-color: #e2e2e2;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*cabeçalho*/
+nav{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text{
+    display: flex;
+    width: 300px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #3b5bdb;
+    font-weight: 600;
+    margin-left: 65px;
+}
+
+.navigation_span{
+    padding-left: 22px;
+}
+
+.header__search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.header__search i{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    background-color: #e2e2e2;
+    height: 40px;
+    width: 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__search input{
+    border: none;
+    width: 364px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+    padding-left: 60px;
+}
+
+/*conteúdo principal*/
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 88vh;
+    margin-top: 111px;
+    flex-grow: 1;
+    
+}
+
+.inserir_tarefa{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.section_title1{
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section_title1 span{
+    font-size: 20px;
+    color: black;
+}
+
+.input__tarefas{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.input__tarefas input{
+    border: none;
+    width: 364px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+}
+
+.input__tarefas select {
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #e2e2e2;
+    color: rgb(118,118,118);
+}
+
+.inserir_tarefa button{
+    margin-top: 20px;
+    background-color: #3b5bdb;
+    color: white;
+    height: 40px;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+}

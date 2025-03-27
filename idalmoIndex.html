@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/idalmoReset.css">
+    <link rel="stylesheet" href="./styles/idalmoStyle.css">
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./styles/lista_de tarefas_style.css">
+    <script defer src="./idalmoScript.js"></script>
+    <script src="https://kit.fontawesome.com/fa86e23414.js" crossorigin="anonymous"></script>
+    <title>Aula 14</title>
+</head>
+<body>
+    
+    <!--Cabeçalho-->
+    <nav class="header">
+        <div class="header__text">
+            <span class="navigation_span">MY TASKS</span>
+        </div>
+        <div class="header__search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Pesquisar tarefa">
+        </div>
+    </nav>
+
+    <!--Principal-->
+    <main class="main_container">
+        <section class="inserir_tarefa">
+            <div class="section_title1">
+                <span>Inserir Tarefa</span>
+            </div>
+
+            <!--Inserir Tarefas-->
+            <div class="input__tarefas">
+                <input type="text" id="task_name" placeholder="Digitar título da tarefa">
+                <select name="task_type" id="task_type" >
+                    <option value="" disable selected>Selecionar Tipo</option>
+                    <option value="Urgente">Urgente</option>
+                    <option value="Importante">Importante</option>
+                    <option value="Normal">Normal</option>
+                </select>
+            </div>
+
+            <button class="tarefa_button">
+                <span>Adicionar Tarefa na Lista</span>
+            </button>
+        </section>
+
+        <!--lista de tarefas-->
+        <section class="listadeTarefas">
+            <div class="section_title2">
+                <span>Tarefas</span>
+            </div>
+
+            <div class="tarefa__box">
+                <ul class="list_style">
+
+                </ul>
+            </div>
+        </section> 
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/*lista de tarefas*/
+
+.listadeTarefas{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+.section_title2{
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section_title2 span{
+    font-size: 20px;
+    color: black;
+}
+
+.tarefa__box{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    padding-bottom: 40px;
+}
+
+.list_style{
+    list-style: none;
+}
+
+.list_item{
+    display: flex;
+    background-color: #f1f3f5;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list_item_info{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task_type_circle {
+    height: 12px;
+    width: 12px;
+    margin-left: 20px;
+    border-radius: 50%;
+    
+}
+
+.task_type_urgent{
+    background-color: red;
+}
+
+.task_type_importante{
+    background-color: orange;
+}
+
+.task_type_normal{
+    background-color: green;
+}
+
+.task_type_text{
+    font-size: 12px;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.remove_task_button{
+    height: 25px;
+    width: 25px;
+    border: none;
+    margin-right: 20px;
+}
